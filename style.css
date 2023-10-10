@@ -17,24 +17,28 @@ body {
 
 .header {
     border: 1px solid lightblue;
-    background-image: linear-gradient hsl(252, 100%, 67%); 
-    /* background-color:linear-gradient hsl(252, 100%, 67%) ; */
-    line-height: 2;
-
+    background-color:blue;
+    background-image:hsla(241, 72%, 46%, 0);
+    padding: 40px;
     margin: 10px;
+    margin-top: 0;
+    border-radius: 40px;
+
+    color: wheat;
 }
 
 h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 5px;
 }
 
-h3 {
-    height: 150px;
-    width: 180px;
+ h3 {
+    height: 200px;
+    width: 140px;
 
-    gap:4;
+    /* gap:4; */
     border: 5px solid blue;
     border-radius: 70px;
     background-color: blue;
@@ -42,4 +46,19 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 20%;
+
+
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    text-align: justify;
+}
+
+h4{
+    
 }

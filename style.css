@@ -1,51 +1,45 @@
-# Front-end Style Guide
-
-## Layout
-
-
-
-The designs were created to the following widths:
-
-- Mobile: 375px
-- Desktop: 1440px
-
-## Colors
-
-### Primary
-
-- Light red: hsl(0, 100%, 67%)
-- Orangey yellow: hsl(39, 100%, 56%)
-- Green teal: hsl(166, 100%, 37%)
-- Cobalt blue: hsl(234, 85%, 45%)
-
-## Gradients
-
-- Light slate blue (background): hsl(252, 100%, 67%)
-- Light royal blue (background): hsl(241, 81%, 54%)
-
-- Violet blue (circle): hsla(256, 72%, 46%, 1)
-- Persian blue (circle): hsla(241, 72%, 46%, 0)
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 
+body {
+    height: 100vh;
+    width: 100vw;
 
-### Neutral
+    /* define variable and value */
+    /* --header-background-color: Pale blue; */
+    /* display: flex; */
 
-- White: hsl(0, 0%, 100%)
-- Pale blue: hsl(221, 100%, 96%)
-- Light lavender: hsl(241, 100%, 89%)
-- Dark gray blue: hsl(224, 30%, 27%)
+}
 
-### Notes
+.header {
+    border: 1px solid lightblue;
+    background-image: linear-gradient hsl(252, 100%, 67%); 
+    /* background-color:linear-gradient hsl(252, 100%, 67%) ; */
+    line-height: 2;
 
-Use transparency to get the colour variations necessary to match the design. Hint: look into using `hsla()`.
+    margin: 10px;
+}
 
-## Typography
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-### Body Copy
+h3 {
+    height: 150px;
+    width: 180px;
 
-- Font size (paragraphs): 18px
-
-### Font
-
-- Family: [Hanken Grotesk](https://fonts.google.com/specimen/Hanken+Grotesk)
-- Weights: 500, 700, 800
+    gap:4;
+    border: 5px solid blue;
+    border-radius: 70px;
+    background-color: blue;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
